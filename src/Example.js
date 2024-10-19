@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 export default function Example(props) {
   console.log(props.example);
@@ -6,7 +7,8 @@ export default function Example(props) {
     return (
       <div>
         <em>
-          <strong>Example:</strong>
+          <strong>Example: </strong>
+
           {props.example}
         </em>
       </div>

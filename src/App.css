@@ -1,0 +1,17 @@
+body {
+  background: #e7cccc;
+}
+
+.about {
+  background: #ede8dc;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: #626f47;
+}

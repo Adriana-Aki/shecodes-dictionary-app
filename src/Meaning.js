@@ -1,14 +1,18 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 import Example from "./Example";
+import "./App.css";
 
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
-    <div className="m-3">
-      <h3 className="text-start"> {props.meaning.partOfSpeech}</h3>
+    <div className="mt-3 about shadow-sm p-3 rounded">
+      <h3 className="text-start text-capitalize">
+        {" "}
+        {props.meaning.partOfSpeech}
+      </h3>
       <div className="definition text-start">
-        <strong>Definition:</strong>
+        <strong>Definition: </strong>
         {props.meaning.definition}
       </div>
 
