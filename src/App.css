@@ -16,6 +16,10 @@ strong {
   color: #626f47;
 }
 
+h1 {
+  font-family: "Playwrite GB S", cursive;
+}
+
 input {
   background: #ede8dc !important;
   color: #626f47 !important;
