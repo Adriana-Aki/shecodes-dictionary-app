@@ -26,18 +26,19 @@ export default function Dictionary() {
 
   return (
     <div>
-      <form onSubmit={search} className="text-center m-4 ">
+      <form onSubmit={search} className="text-center p-3">
         <input
           type="search"
-          placeholder="Type the word... exmp: sunset, book, cat .."
+          placeholder="Type the word... i.e.: sunset, book, cat .."
           autoFocus={true}
           onChange={handleChange}
-          className="form-control shadow p-2 mb-5 bg-body-tertiary rounded"
+          className="form-control shadow p-2 bg-body-tertiary rounded "
         />
-        <div className="container m-2">
-          <Results data={results} />
-        </div>
       </form>
+
+      <div className="container m-2">
+        <Results data={results} />
+      </div>
     </div>
   );
 }

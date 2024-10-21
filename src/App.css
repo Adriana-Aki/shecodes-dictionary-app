@@ -15,3 +15,7 @@ h5,
 strong {
   color: #626f47;
 }
+
+input {
+  background: #ede8dc !important;
+}
