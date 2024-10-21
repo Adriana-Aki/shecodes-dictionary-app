@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <div className="container"> </div>
-      <header className="App-header text-center m-3">
+      <header className="App-header text-center m-5">
         <h1>My dictionary app</h1>
       </header>
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyWord="Welcome" />
       </div>
 
       <footer className="text-center">

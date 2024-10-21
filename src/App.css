@@ -18,4 +18,19 @@ strong {
 
 input {
   background: #ede8dc !important;
+  color: #626f47 !important;
+  border: 2px solid #626f47;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.hint {
+  font-size: 11px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.photos {
+  border-radius: 5px;
+  margin: 0px 0 15px 0;
 }
